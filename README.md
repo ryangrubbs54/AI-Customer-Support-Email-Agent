@@ -67,3 +67,24 @@ An n8n-based, **draft-only** customer-support email workflow for a fictional e-c
 ## Demonstrated test scenarios
 
 In local tests, the user confirmed successful automated runs for: general inquiry, verified order draft, mismatched customer email, missing order, and duplicate email suppression. These are functional demonstration results, not guarantees under production traffic.
+
+## Project Screenshots
+
+### 1. AI Email Agent Workflow
+
+The n8n workflow handles incoming emails, AI classification, duplicate detection, order verification, Gmail draft creation, and activity logging.
+
+![AI Email Agent Workflow](screenshots/Workflow%20Image.png)
+
+### 2. Google Sheets Activity Log
+
+An illustrative view of the Google Sheets tracking system used to record email classifications, order inquiries, draft outcomes, and review statuses.
+
+![Activity Log](screenshots/Activity%20Flow%20Image.png)
+
+### 3. AI-Generated Gmail Draft
+
+An illustrative example showing how a customer inquiry is processed and transformed into a personalized email draft for human review before sending.
+
+![AI-Generated Email Draft](screenshots/Email%20Draft%20Image.png)
+
